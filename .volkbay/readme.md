@@ -38,13 +38,13 @@ Kalibre etmek için kullanılacak verinin iki yolu var:
 ## ROS ##
 Çekim yapıp AEDAT veya rosbag dosyasını */data* altına koy. AEDAT çevrimi için Python kodunu çalıştırınca, */data/davis_bag* altında gerekli rostopic'ler hazır olmalı. Ayrıca gerekli YAML dosyaları da */data* altında hazır olsun.
 
-> [!INFO]
+> [!NOTE]
 > Frameler için 20 Hz, IMU için 200 Hz önerilir.
 
 > [!IMPORTANT]
 > AprilTag veya hangi checkerboard kullanılyorsa YAML dosyasını buna göre güncelle. Gerekirse IMU dosyasında da noise parametrelerini güncelle.
 
-> [!INFO]
+> [!NOTE]
 > İki kalibrasyon için farklı çekimler ve boardlar kullanabiliriz. Ama genel olarak aprilTag iş yapar.
 
 > [!IMPORTANT]
