@@ -28,6 +28,7 @@ RUN	cd $WORKSPACE/src &&\
 RUN	cd $WORKSPACE &&\
 	catkin build -j$(nproc)
 RUN echo "source ${WORKSPACE}/devel/setup.bash" >> /root/.bashrc
+RUN echo "export DISABLE_ROS1_EOL_WARNINGS=1" >> /root/.bashrc
 
 # (begin) DAVIS Driver
 RUN apt-get update && \
